@@ -1,0 +1,97 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    font-weight: normal;
+}
+
+#page-banner{
+    background:rgb(104, 21, 21);
+    padding:10px;
+}
+#page-banner h1, #page-banner p{
+    width:100%;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+}
+#page-banner input{
+    width:90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border:1px solid #ddd;
+    font-size:16px;
+    color:#444;
+}
+
+#movie-list,#add-movie,#tabbed-content{
+    margin: 30px;
+}
+
+#movie-list ul,#tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#movie-list li{
+    padding: 20px;
+}
+
+.delete{
+    float: right;
+    background:rgb(104, 21, 21);
+    padding:6px;
+    cursor: pointer;
+    color: white;
+}
+
+#add-movie{
+    width: 400px;
+    margin:0 auto;
+}
+
+#add-movie input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+}
+
+#add-movie button{
+    border: 1px solid #000000;
+    background:rgb(104, 21, 21);
+    padding:10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#add-movie:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#add-movie #hide{
+    width: 30px;
+}
+
+#add-movie label{
+    line-height: 52px;
+}

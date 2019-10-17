@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Working with JavaScript Dom</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Popcorn Times</h1>
+                <form id="search-movies">
+                    <input type="text" placeholder="Search">
+                </form>
+            </div>
+        </header>
+        <div id="movie-list">
+            <h2 class="title">List of Movies</h2>
+            <ul>
+                <li>
+                    <span class="name">Zindagi Na Milegi Dubara</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Ye Jawani Hai Deewani</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Lakshya</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">URI</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Brothers</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="add-movie">
+            <input type="checkbox" id="hide">
+            <label for="hide">Hide the List</label>
+            <input type="text" placeholder="Add movie">
+            <button>Add</button>
+        </form>        
+    </div>
+    
+   <script src="name.js"></script>
+</body>    
+</html>
